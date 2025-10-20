@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome'); // ← ESTA É A LINHA QUE FALTAVA
 
 // Dashboard
 Route::get('/dashboard', [DashboardController::class, 'index'])

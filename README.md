@@ -1,61 +1,266 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# �� Sistema de Gestão Laravel
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<div align="center">
+  <img src="https://img.shields.io/badge/Laravel-12.34.0-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/PHP-8.4.13-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+</div>
 
-## About Laravel
+<div align="center">
+  <h3>🎨 Sistema completo de gestão com interface moderna e responsiva</h3>
+  <p>Desenvolvido por <strong>Marcelo Logan</strong></p>
+</div>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 📖 **Sobre o Projeto**
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Sistema de gestão empresarial desenvolvido em Laravel com interface moderna e intuitiva. O projeto oferece um CRUD completo para gerenciamento de clientes, produtos, categorias e pedidos, com foco na experiência do usuário e design responsivo.
 
-## Learning Laravel
+### ✨ **Principais Características**
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- 🎨 **Interface Moderna**: Design limpo e profissional com paleta de cores personalizada
+- 📱 **Totalmente Responsivo**: Funciona perfeitamente em desktop, tablet e mobile
+- ⚡ **Performance Otimizada**: Carregamento rápido e navegação fluida
+- 🔐 **Sistema de Autenticação**: Login seguro com Laravel Breeze
+- 🖼️ **Upload de Imagens**: Sistema completo de upload com preview
+- �� **Filtros Avançados**: Busca e filtros inteligentes em todas as listagens
+- 📊 **Dashboard Visual**: Estatísticas e métricas em tempo real
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🛠️ **Tecnologias Utilizadas**
 
-## Laravel Sponsors
+### **Backend**
+- **Laravel 12.34.0** - Framework PHP robusto e elegante
+- **PHP 8.4.13** - Linguagem de programação
+- **MySQL** - Banco de dados relacional
+- **Laravel Breeze** - Sistema de autenticação
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### **Frontend**
+- **Tailwind CSS** - Framework CSS utilitário
+- **Blade Templates** - Engine de templates do Laravel
+- **JavaScript Vanilla** - Interatividade e dinamismo
+- **Alpine.js** (via Breeze) - Framework JavaScript reativo
 
-### Premium Partners
+### **Ferramentas**
+- **Vite** - Build tool e bundler
+- **Composer** - Gerenciador de dependências PHP
+- **NPM** - Gerenciador de pacotes JavaScript
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## 📦 **Módulos do Sistema**
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 👥 **Gestão de Clientes**
+- ✅ Cadastro completo com validações
+- ✅ Listagem com filtros avançados
+- ✅ Visualização detalhada
+- ✅ Edição e exclusão
+- ✅ Busca por nome, email ou CPF
 
-## Code of Conduct
+### 🏷️ **Gestão de Categorias**
+- ✅ CRUD completo de categorias
+- ✅ Interface em cards modernos
+- ✅ Contadores de produtos por categoria
+- ✅ Sistema de status ativo/inativo
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 📦 **Gestão de Produtos**
+- ✅ Cadastro com upload de imagens
+- ✅ Controle de estoque
+- ✅ Categorização
+- ✅ Código de barras
+- ✅ Filtros por categoria, preço e estoque
+- ✅ Preview de imagens
 
-## Security Vulnerabilities
+### 🛒 **Gestão de Pedidos**
+- ✅ Criação dinâmica de pedidos
+- ✅ Adição/remoção de produtos em tempo real
+- ✅ Cálculo automático de totais
+- ✅ Controle de status (Pendente → Confirmado → Entregue)
+- ✅ Validação de estoque
+- ✅ Histórico completo
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 📊 **Dashboard**
+- ✅ Estatísticas em tempo real
+- ✅ Gráficos e métricas
+- ✅ Resumo de vendas
+- ✅ Produtos em baixo estoque
+- ✅ Pedidos recentes
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 🎨 **Interface e Design**
+
+### **Paleta de Cores Personalizada**
+```css
+/* Cores Principais */
+--primary: #2563eb        /* Azul principal */
+--primary-dark: #1d4ed8   /* Azul escuro */
+--secondary: #7c3aed      /* Roxo secundário */
+--secondary-dark: #6d28d9 /* Roxo escuro */
+
+/* Gradientes */
+--warm-gradient: linear-gradient(135deg, #f59e0b, #ef4444, #ec4899)
+
+/* Texto */
+--text-dark: #1f2937      /* Texto principal */
+--text-light: #6b7280     /* Texto secundário */
+Componentes Modernos
+🎯 Cards com hover effects
+🎨 Gradientes suaves
+📱 Layout responsivo
+⚡ Animações CSS
+🔄 Loading states
+🎪 Modais estilizados
+
+🚀 Instalação e Configuração
+Pré-requisitos
+PHP >= 8.2
+Composer
+Node.js >= 16
+MySQL >= 8.0
+Passo a Passo
+Clone o repositório
+bash
+Copiar
+
+git clone https://github.com/marcelologan/laravel-sale-system.git
+cd sistema-gestao-laravel
+Instale as dependências PHP
+bash
+Copiar
+
+composer install
+Instale as dependências JavaScript
+bash
+Copiar
+
+npm install
+Configure o ambiente
+bash
+Copiar
+
+cp .env.example .env
+php artisan key:generate
+Configure o banco de dados
+env
+Copiar
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=seu_banco
+DB_USERNAME=seu_usuario
+DB_PASSWORD=sua_senha
+Execute as migrações
+bash
+Copiar
+
+php artisan migrate
+Execute os seeders (opcional)
+bash
+Copiar
+
+php artisan db:seed
+Crie o link simbólico para storage
+bash
+Copiar
+
+php artisan storage:link
+Compile os assets
+bash
+Copiar
+
+npm run build
+# ou para desenvolvimento
+npm run dev
+Inicie o servidor
+bash
+Copiar
+
+php artisan serve
+Acesse: http://localhost:8000
+
+📱 Screenshots
+Dashboard
+
+
+Gestão de Produtos
+
+
+Gestão de Pedidos
+
+
+Interface Mobile
+
+
+�� Funcionalidades Técnicas
+
+Validações
+✅ Validação de CPF
+✅ Validação de email
+✅ Validação de imagens
+✅ Validação de estoque
+✅ Sanitização de dados
+
+Segurança
+✅ Autenticação Laravel Breeze
+✅ Middleware de autenticação
+✅ CSRF Protection
+✅ Validação de inputs
+✅ Sanitização de uploads
+
+Performance
+✅ Eager Loading
+✅ Paginação otimizada
+✅ Cache de queries
+✅ Otimização de assets
+✅ Lazy loading de imagens
+
+📚 Estrutura do Projeto
+├── app/
+│   ├── Http/Controllers/     # Controllers do sistema
+│   ├── Models/              # Models Eloquent
+│   └── ...
+├── database/
+│   ├── migrations/          # Migrações do banco
+│   └── seeders/            # Seeders de dados
+├── resources/
+│   ├── views/              # Templates Blade
+│   ├── css/                # Estilos CSS
+│   └── js/                 # JavaScript
+├── public/
+│   └── storage/            # Arquivos públicos
+└── routes/
+    └── web.php             # Rotas da aplicação
+🤝 Contribuição
+Contribuições são sempre bem-vindas! Para contribuir:
+
+Faça um fork do projeto
+Crie uma branch para sua feature (git checkout -b feature/AmazingFeature)
+Commit suas mudanças (git commit -m 'Add some AmazingFeature')
+Push para a branch (git push origin feature/AmazingFeature)
+Abra um Pull Request
+📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+👨‍💻 Autor
+Marcelo Logan
+
+GitHub: 
+
+github.com
+LinkedIn: 
+
+linkedin.com
+Email: seu-email@exemplo.com
+🙏 Agradecimentos
+Laravel Framework
+Tailwind CSS
+Comunidade PHP
+Todos os contribuidores
+⭐ Se este projeto te ajudou, considere dar uma estrela!
+
+Feito com ❤️ por Marcelo Logan
